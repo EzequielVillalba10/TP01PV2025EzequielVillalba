@@ -1,0 +1,195 @@
+nav {
+    background-color: #0033A0; /* Azul de la bandera francesa */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Color blanco para los enlaces */
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #FF4136; /* Rojo de la bandera francesa */
+    color: white;
+    cursor: pointer;
+}
+
+/* Agregar borde inferior al nav con los colores de la bandera */
+nav {
+    border-bottom: 5px solid #FFFFFF; /* Blanco de la bandera francesa */
+}
+
+/*ACA LE PUSE UN FONDO DE PANTALLA A TODO EL CUERPO DE LA PAGINA!!! Y UN ESTILO DE TEXTO !!!*/
+body{
+    background-image: url(../images/france.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Color de texto oscuro para una mejor legibilidad */
+    padding: 20px;
+    border-radius: 10px;
+    
+    
+    margin: 30px auto;
+    }
+
+/* Estilos para el encabezado de la pagina*/
+
+
+  .encabezado{
+    background-image: url(../images/flag.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black; /* Borde de 2 píxeles, color negro y tipo sólido */
+    padding: 10px; /* Espacio dentro del recuadro */
+    }
+    
+    
+    /* Estilos para la seccion de historia*/
+    #historia{
+        background-color: rgba(255, 255, 255, 0.603);
+        border: 5px solid #060d14; /* El color y grosor del borde */
+        padding: 20px; /* Espacio interior para que el contenido no quede pegado al borde */
+        margin: 20px; /* Espacio fuera del borde */
+        border-radius: 10px; /* Bordes redondeados (opcional) */
+        text-align: center;
+    }
+
+    .imagen-historia {
+        width: 100%; /* Ajusta el tamaño */
+        max-width: 400px; /* Tamaño máximo */
+        height: auto; /* Mantiene la proporción */
+      
+    }
+
+
+
+    /*Estilos para la seccion de gastronomia*/
+
+    #gastronomia{
+        background-color: rgba(255, 255, 255, 0.603);
+        border: 5px solid #060d14; /* El color y grosor del borde */
+        padding: 20px; /* Espacio interior para que el contenido no quede pegado al borde */
+        margin: 20px; /* Espacio fuera del borde */
+        border-radius: 10px; /* Bordes redondeados (opcional) */
+        
+    }
+
+
+    /* Estilo para la sección de imágenes */
+.imagenes-gastronomia {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #f3f3f37c;
+    border: 5px solid #060d14;
+    margin: 20px;
+}
+
+.imagenes-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.imagen-item {
+    width: 200px;
+    text-align: center;
+}
+
+.imagen-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Para darle un borde redondeado a las imágenes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*Esto servia para poner una sombra bien suave*/
+}
+
+.imagen-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#cultura-deportiva{
+    background-color: #f3f3f37c;
+    border: 5px solid #060d14;
+    margin: 20px;
+}
+
+
+
+/*ESTILOS PARA LAS IMAGENES DE DEPORTES*/
+
+/* Estilo para las imágenes */
+.imagenes-deportes {
+    display: flex;  /* Usamos flexbox para alinear las imágenes al lado */
+    justify-content: center;  /* Espacio entre las imágenes */
+    gap: 20px;  /* Espacio entre las imágenes */
+}
+
+.imagen-deporte {
+    width: 28%;  /* Cada imagen ocupa el 48% del ancho del contenedor */
+    height: auto;  /* Mantener la proporción de las imágenes */
+    border-radius: 8px;  /* Bordes redondeados para las imágenes */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra sutil para las imágenes */
+}
+
+
+#informacion {
+    background-color: #f4f4f498;  /* Fondo suave */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra ligera */
+    max-width: 1500px;  /* Ancho limitado para no ser tan grande */
+    margin: 20px auto;  /* Centrado en la página */
+    
+}
+
+#informacion h3 {
+    color: #0066cc;  /* Color para los encabezados */
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#informacion p {
+    margin-bottom: 10px;
+}
+
+#informacion ul {
+    list-style-type: none;  /* Elimina los puntos de la lista */
+    padding-left: 0;
+}
+
+#informacion ul li {
+    margin-bottom: 8px;
+}
+
+
