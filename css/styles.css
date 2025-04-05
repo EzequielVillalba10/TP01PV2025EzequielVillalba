@@ -193,3 +193,38 @@ body{
 }
 
 
+/* ESTILOS PARA CONTACTO*/
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #3364be96;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.966);
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff0f0f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
