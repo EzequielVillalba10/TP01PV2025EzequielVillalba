@@ -11,9 +11,13 @@
 </head>
 <body>
   
+    
     <div class="container">
         <h1>Contacto</h1>
-        <form action="procesar_contacto.php" method="post">
+        <form id="contact-form" >
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
 
@@ -26,8 +30,39 @@
             <label for="mensaje">Mensaje:</label>
             <textarea id="mensaje" name="mensaje" required></textarea>
 
-            <button type="submit">Enviar Mensaje</button>
+            <button type="submit" onclick="enviarFormulario()">Enviar Mensaje</button>
         </form>
     </div>
+
+    <script>
+        //Funcion que se ejecuta cuando se hace click en enviar
+        function enviarFormulario()
+        {
+            //Evitar que el formulario se envie y la pagina se recargue
+            event.preventDefault();
+
+            // Obtener los valores de los inputs
+            var apellido = document.getElementById("apellido").value;
+            
+            var nombre = document.getElementById("nombre").value;
+
+            var email = document.getElementById("email").value;
+
+            var asunto = document.getElementById("asunto").value;
+
+            var mensaje = document.getElementById("mensaje").value;
+     
+            // Mostrar los valores en la consola
+            console.log("Nombre: ", nombre);
+            console.log("Apellido: ", apellido);
+            console.log("Email: ", email);
+            console.log("Asunto: ", asunto);
+            console.log("Mensaje: ", mensaje);
+            
+
+            alert("Nombre: "+nombre+" y apellido: "+apellido + " email: " +email+ " asunto: "+asunto+ " mensaje: "+mensaje)
+        }
+    </script>
 </body>
 </html>
+

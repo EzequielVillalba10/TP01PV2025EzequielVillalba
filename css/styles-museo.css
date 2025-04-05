@@ -38,3 +38,32 @@ a {
 a:hover {
     color: #3f475e;
 }
+
+#informacion {
+    background-color: #f4f4f498;  /* Fondo suave */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra ligera */
+    max-width: 1500px;  /* Ancho limitado para no ser tan grande */
+    margin: 20px auto;  /* Centrado en la página */
+    
+}
+
+#informacion h3 {
+    color: #0066cc;  /* Color para los encabezados */
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#informacion p {
+    margin-bottom: 10px;
+}
+
+#informacion ul {
+    list-style-type: none;  /* Elimina los puntos de la lista */
+    padding-left: 0;
+}
+
+#informacion ul li {
+    margin-bottom: 8px;
+}
